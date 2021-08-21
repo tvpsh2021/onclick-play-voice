@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+}
+
+.main-screen {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.normal {
+	position: absolute;
+}
+
+.pop {
+	position: absolute;
+	/* visibility: hidden; */
+	display: none;
+}
