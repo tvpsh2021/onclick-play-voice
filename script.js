@@ -68,6 +68,7 @@ window.onload = () => {
       e.preventDefault();
     }, { passive: false });
     main_screen.addEventListener('touchstart', function (e) {
+      playSoundEveryTime();
       pop();
     });
     main_screen.addEventListener('touchend', function (e) {
