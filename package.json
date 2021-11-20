@@ -1,0 +1,19 @@
+{
+  "name": "onclick-play-voice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tvpsh2021/onclick-play-voice.git",
+  "author": "Jimmy Cheng <jimmy@shoplineapp.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": "nodemon app.js",
+    "lint": "eslint --fix app.js ./public/script.js"
+  }
+}
